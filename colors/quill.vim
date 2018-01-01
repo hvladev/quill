@@ -99,6 +99,9 @@ call s:highlight('TabLine'            , 'linenr'       , 'statusline' , 'NONE')
 call s:highlight('TabLineFill'        , 'NONE'         , 'statusline' , 'NONE')
 call s:highlight('TabLineSel'         , 'cursorlinenr' , 'statusline' , 'bold')
 
+call s:highlight('Folded'             , 'cursor'       , 'bg'         , 'NONE')
+highlight! link FoldColumn Folded
+
 call s:highlight('Title'              , 'green'        , 'NONE'       , 'NONE')
 call s:highlight('Question'           , 'green'        , 'NONE'       , 'NONE')
 call s:highlight('MoreMsg'            , 'green'        , 'NONE'       , 'NONE')
