@@ -99,7 +99,7 @@ call s:highlight('TabLine'            , 'linenr'       , 'statusline' , 'NONE')
 call s:highlight('TabLineFill'        , 'NONE'         , 'statusline' , 'NONE')
 call s:highlight('TabLineSel'         , 'cursorlinenr' , 'statusline' , 'bold')
 
-call s:highlight('Folded'             , 'cursor'       , 'bg'         , 'NONE')
+call s:highlight('Folded'             , 'cursor'       , 'NONE'       ,'NONE')
 highlight! link FoldColumn Folded
 
 call s:highlight('Title'              , 'green'        , 'NONE'       , 'NONE')
