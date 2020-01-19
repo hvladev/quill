@@ -90,6 +90,7 @@ call s:highlight('Cursor'             , 'NONE'         , 'cursor'     , 'NONE')
 call s:highlight('CursorLine'         , 'NONE'         , 'cursorline' , 'NONE')
 call s:highlight('CursorLineNr'       , 'cursorlinenr' , 'cursorline' , 'NONE')
 call s:highlight('LineNr'             , 'linenr'       , 'NONE'       , 'NONE')
+call s:highlight('SignColumn'         , 'NONE'         , 'bg'         , 'NONE')
 highlight! link ColorColumn CursorLine
 
 call s:highlight('StatusLine'         , 'cursorlinenr' , 'statusline' , 'NONE')
